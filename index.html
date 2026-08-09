@@ -96,7 +96,7 @@ nav.scrolled{background:rgba(6,11,18,0.95);border-bottom-color:var(--border2);}
 @keyframes spin{to{transform:rotate(360deg);}}
 #about{padding:4rem 0;background:transparent;overflow:hidden;}
 .marquee-container{width:100%;overflow:hidden;position:relative;}
-.marquee{display:flex;gap:3rem;align-items:center;animation:scroll-left 10s linear infinite;}
+.marquee{display:flex;gap:3rem;align-items:center;width:max-content;will-change:transform;animation:scroll-left 32s linear infinite;}
 .marquee-item{display:flex;flex-direction:column;align-items:center;gap:1rem;white-space:nowrap;flex-shrink:0;min-width:150px;}
 .marquee-item i{font-size:4rem;opacity:1;transition:all 0.3s;}
 .marquee-item span{font-family:var(--heading-font);font-size:1.5rem;font-weight:600;color:var(--heading);}
